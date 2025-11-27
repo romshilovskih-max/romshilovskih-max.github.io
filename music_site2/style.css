@@ -1,0 +1,13 @@
+
+body{margin:0;font-family:Arial;background:#1b1b1b;color:white;}
+header{background:#222;padding:25px;text-align:center;font-size:34px;font-weight:bold;}
+.album-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:28px;padding:30px;}
+.album{background:#2a2a2a;padding:15px;border-radius:12px;text-align:center;transition:.3s;text-decoration:none;color:white;}
+.album:hover{background:#3a3a3a;transform:scale(1.03);}
+.album img{width:100%;border-radius:12px;}
+h2{text-align:center;margin-top:25px;}
+.artist-info{text-align:center;padding:20px;}
+.artist-info img{width:45%;border-radius:12px;margin:20px;}
+.song-list{max-width:650px;margin:auto;}
+.song{background:#2c2c2c;padding:15px;margin:12px 0;border-radius:10px;}
+audio{width:100%;margin-top:10px;}
